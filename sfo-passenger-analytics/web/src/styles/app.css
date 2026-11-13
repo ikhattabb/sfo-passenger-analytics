@@ -1,0 +1,268 @@
+/* Layout and component styles. Colours come from tokens.css. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font: 14px/1.5 var(--font);
+}
+
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+/* ---------- header ---------- */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 12px 24px;
+  margin-bottom: 20px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.header p {
+  margin: 4px 0 0;
+  max-width: 62ch;
+  color: var(--ink2);
+}
+.badge {
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink2);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+/* ---------- KPI tiles ---------- */
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.kpi {
+  min-width: 0;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.kpi-label {
+  color: var(--ink2);
+  font-size: 12px;
+}
+.kpi-value {
+  margin-top: 4px;
+  font-size: 28px;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.kpi-note {
+  margin-top: 2px;
+  color: var(--ink2);
+  font-size: 12px;
+}
+.up {
+  color: var(--up);
+  font-weight: 600;
+}
+.down {
+  color: var(--down);
+  font-weight: 600;
+}
+
+/* ---------- cards and grid ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr));
+  gap: 16px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.card.wide {
+  grid-column: 1 / -1;
+}
+.card h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 650;
+}
+.takeaway {
+  max-width: 80ch;
+  margin: 0 0 8px;
+  color: var(--ink2);
+  font-size: 13px;
+}
+
+/* ---------- charts ---------- */
+.plot {
+  position: relative;
+  height: 280px;
+}
+.plot.tall {
+  height: 340px;
+}
+.plot.short {
+  height: 260px;
+}
+.recharts-wrapper:focus,
+.recharts-wrapper *:focus {
+  outline: none;
+}
+
+.tooltip {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  font-size: 12px;
+}
+.tooltip-title {
+  margin-bottom: 4px;
+  color: var(--ink);
+  font-weight: 600;
+}
+.tooltip-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink2);
+}
+.swatch {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  flex: none;
+}
+.tooltip-value {
+  margin-left: auto;
+  padding-left: 12px;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- tables ---------- */
+details {
+  margin-top: 10px;
+}
+summary {
+  width: fit-content;
+  color: var(--ink2);
+  font-size: 12px;
+  cursor: pointer;
+}
+summary:focus-visible {
+  outline: 2px solid var(--s1);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+.table-wrap {
+  max-height: 260px;
+  margin-top: 8px;
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.table-wrap.open {
+  max-height: none;
+  margin-top: 12px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+}
+th,
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--grid);
+  text-align: left;
+  white-space: nowrap;
+}
+th {
+  position: sticky;
+  top: 0;
+  background: var(--surface);
+  color: var(--ink2);
+  font-weight: 600;
+}
+th.num,
+td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+tr:last-child td {
+  border-bottom: 0;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.chip i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* ---------- notes and footer ---------- */
+.notes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+.notes li {
+  margin: 0 0 6px;
+  color: var(--ink2);
+  font-size: 13px;
+}
+.notes ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.dq-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.dq-pills span {
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 12px;
+}
+.footer {
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 12px;
+}

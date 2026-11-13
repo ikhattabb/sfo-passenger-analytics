@@ -1,0 +1,222 @@
+﻿year,is_full_year,geo_summary,geo_region,passengers,share_of_total_pct,yoy_pct
+1999,0,International,Asia,1552662,7.46,
+1999,0,International,Australia / Oceania,98003,0.47,
+1999,0,International,Canada,589398,2.83,
+1999,0,International,Central America,40024,0.19,
+1999,0,International,Europe,1208509,5.81,
+1999,0,International,Mexico,287377,1.38,
+1999,0,Domestic,US,17030306,81.85,
+2000,1,International,Asia,3552559,8.81,
+2000,1,International,Australia / Oceania,186721,0.46,
+2000,1,International,Canada,1239614,3.08,
+2000,1,International,Central America,80822,0.2,
+2000,1,International,Europe,2461825,6.11,
+2000,1,International,Mexico,625550,1.55,
+2000,1,Domestic,US,32156788,79.79,
+2001,1,International,Asia,3324634,9.79,-6.4
+2001,1,International,Australia / Oceania,174849,0.52,-6.4
+2001,1,International,Canada,1065498,3.14,-14
+2001,1,International,Central America,85286,0.25,5.5
+2001,1,International,Europe,2260320,6.66,-8.2
+2001,1,International,Mexico,630214,1.86,0.7
+2001,1,Domestic,US,26409753,77.79,-17.9
+2002,1,International,Asia,3560765,11.58,7.1
+2002,1,International,Australia / Oceania,197686,0.64,13.1
+2002,1,International,Canada,964228,3.14,-9.5
+2002,1,International,Central America,97295,0.32,14.1
+2002,1,International,Europe,1992707,6.48,-11.8
+2002,1,International,Mexico,465209,1.51,-26.2
+2002,1,Domestic,US,23459190,76.32,-11.2
+2003,1,International,Asia,3068612,10.66,-13.8
+2003,1,International,Australia / Oceania,176455,0.61,-10.7
+2003,1,International,Canada,973015,3.38,0.9
+2003,1,International,Central America,104193,0.36,7.1
+2003,1,International,Europe,1972745,6.85,-1
+2003,1,International,Mexico,400131,1.39,-14
+2003,1,Domestic,US,22091134,76.74,-5.8
+2004,1,International,Asia,3660035,11.38,19.3
+2004,1,International,Australia / Oceania,241715,0.75,37
+2004,1,International,Canada,1017975,3.17,4.6
+2004,1,International,Central America,115760,0.36,11.1
+2004,1,International,Europe,2103578,6.54,6.6
+2004,1,International,Mexico,423013,1.32,5.7
+2004,1,Domestic,US,24594752,76.48,11.3
+2005,1,International,Asia,3823713,11.66,4.5
+2005,1,International,Australia / Oceania,297613,0.91,23.1
+2005,1,International,Canada,1060296,3.23,4.2
+2005,1,International,Central America,116517,0.36,0.7
+2005,1,International,Europe,2195769,6.69,4.4
+2005,1,International,Mexico,602280,1.84,42.4
+2005,1,Domestic,US,24706335,75.32,0.5
+2006,1,International,Asia,3936603,11.9,3
+2006,1,International,Australia / Oceania,440761,1.33,48.1
+2006,1,International,Canada,1188583,3.59,12.1
+2006,1,International,Central America,111255,0.34,-4.5
+2006,1,International,Europe,2156372,6.52,-1.8
+2006,1,International,Mexico,655184,1.98,8.8
+2006,1,Domestic,US,24595770,74.34,-0.4
+2007,1,International,Asia,4161128,11.78,5.7
+2007,1,International,Australia / Oceania,502323,1.42,14
+2007,1,International,Canada,1274899,3.61,7.3
+2007,1,International,Central America,129652,0.37,16.5
+2007,1,International,Europe,2282912,6.46,5.9
+2007,1,International,Mexico,611987,1.73,-6.6
+2007,1,Domestic,US,26354429,74.62,7.2
+2008,1,International,Asia,4164544,11.24,0.1
+2008,1,International,Australia / Oceania,482277,1.3,-4
+2008,1,International,Canada,1232914,3.33,-3.3
+2008,1,International,Central America,100119,0.27,-22.8
+2008,1,International,Europe,2354276,6.35,3.1
+2008,1,International,Mexico,626741,1.69,2.4
+2008,1,International,Middle East,2913,0.01,
+2008,1,Domestic,US,28103031,75.82,6.6
+2009,1,International,Asia,3662776,9.84,-12
+2009,1,International,Australia / Oceania,475357,1.28,-1.4
+2009,1,International,Canada,1157348,3.11,-6.1
+2009,1,International,Central America,107171,0.29,7
+2009,1,International,Europe,2181151,5.86,-7.4
+2009,1,International,Mexico,598809,1.61,-4.5
+2009,1,International,Middle East,138534,0.37,4655.7
+2009,1,Domestic,US,28903104,77.65,2.8
+2010,1,International,Asia,3985948,10.19,8.8
+2010,1,International,Australia / Oceania,449478,1.15,-5.4
+2010,1,International,Canada,1299048,3.32,12.2
+2010,1,International,Central America,114185,0.29,6.5
+2010,1,International,Europe,2158847,5.52,-1
+2010,1,International,Mexico,592797,1.52,-1
+2010,1,International,Middle East,211814,0.54,52.9
+2010,1,International,South America,36471,0.09,
+2010,1,Domestic,US,30268176,77.38,4.7
+2011,1,International,Asia,3915419,9.59,-1.8
+2011,1,International,Australia / Oceania,410986,1.01,-8.6
+2011,1,International,Canada,1282520,3.14,-1.3
+2011,1,International,Central America,125184,0.31,9.6
+2011,1,International,Europe,2410831,5.91,11.7
+2011,1,International,Mexico,585197,1.43,-1.3
+2011,1,International,Middle East,216358,0.53,2.1
+2011,1,International,South America,66758,0.16,83
+2011,1,Domestic,US,31796888,77.91,5.1
+2012,1,International,Asia,4111961,9.28,5
+2012,1,International,Australia / Oceania,393042,0.89,-4.4
+2012,1,International,Canada,1255049,2.83,-2.1
+2012,1,International,Central America,130780,0.3,4.5
+2012,1,International,Europe,2511722,5.67,4.2
+2012,1,International,Mexico,850403,1.92,45.3
+2012,1,International,Middle East,226735,0.51,4.8
+2012,1,International,South America,66453,0.15,-0.5
+2012,1,Domestic,US,34776416,78.46,9.4
+2013,1,International,Asia,4054984,9.04,-1.4
+2013,1,International,Australia / Oceania,431219,0.96,9.7
+2013,1,International,Canada,1286553,2.87,2.5
+2013,1,International,Central America,129110,0.29,-1.3
+2013,1,International,Europe,2719161,6.06,8.3
+2013,1,International,Mexico,834049,1.86,-1.9
+2013,1,International,Middle East,223274,0.5,-1.5
+2013,1,International,South America,65412,0.15,-1.6
+2013,1,Domestic,US,35135994,78.29,1
+2014,1,International,Asia,4210871,8.95,3.8
+2014,1,International,Australia / Oceania,400239,0.85,-7.2
+2014,1,International,Canada,1417654,3.01,10.2
+2014,1,International,Central America,128066,0.27,-0.8
+2014,1,International,Europe,2842337,6.04,4.5
+2014,1,International,Mexico,995435,2.11,19.3
+2014,1,International,Middle East,259452,0.55,16.2
+2014,1,International,South America,15647,0.03,-76.1
+2014,1,Domestic,US,36804461,78.18,4.7
+2015,1,International,Asia,4459991,8.91,5.9
+2015,1,International,Australia / Oceania,392441,0.78,-1.9
+2015,1,International,Canada,1559846,3.12,10
+2015,1,International,Central America,161417,0.32,26
+2015,1,International,Europe,3205713,6.41,12.8
+2015,1,International,Mexico,1002383,2,0.7
+2015,1,International,Middle East,461244,0.92,77.8
+2015,1,Domestic,US,38805645,77.54,5.4
+2016,1,International,Asia,4880033,9.19,9.4
+2016,1,International,Australia / Oceania,593757,1.12,51.3
+2016,1,International,Canada,1555923,2.93,-0.3
+2016,1,International,Central America,242712,0.46,50.4
+2016,1,International,Europe,3409971,6.42,6.4
+2016,1,International,Mexico,1181332,2.22,17.9
+2016,1,International,Middle East,502584,0.95,9
+2016,1,Domestic,US,40729913,76.71,5
+2017,1,International,Asia,5276609,9.45,8.1
+2017,1,International,Australia / Oceania,648443,1.16,9.2
+2017,1,International,Canada,1665707,2.98,7.1
+2017,1,International,Central America,306036,0.55,26.1
+2017,1,International,Europe,3669530,6.57,7.6
+2017,1,International,Mexico,1375231,2.46,16.4
+2017,1,International,Middle East,483691,0.87,-3.8
+2017,1,International,South America,81,0,-99.5
+2017,1,Domestic,US,42389578,75.95,4.1
+2018,1,International,Asia,5563339,9.64,5.4
+2018,1,International,Australia / Oceania,733431,1.27,13.1
+2018,1,International,Canada,1790905,3.1,7.5
+2018,1,International,Central America,377726,0.65,23.4
+2018,1,International,Europe,3941468,6.83,7.4
+2018,1,International,Mexico,1327740,2.3,-3.5
+2018,1,International,Middle East,484219,0.84,0.1
+2018,1,Domestic,US,43481605,75.36,2.6
+2019,1,International,Asia,5846178,10.19,5.1
+2019,1,International,Australia / Oceania,905189,1.58,23.4
+2019,1,International,Canada,1919482,3.35,7.2
+2019,1,International,Central America,367064,0.64,-2.8
+2019,1,International,Europe,4383348,7.64,11.2
+2019,1,International,Mexico,1281424,2.23,-3.5
+2019,1,International,Middle East,537450,0.94,11
+2019,1,Domestic,US,42108990,73.43,-3.2
+2020,1,International,Asia,1272103,7.75,-78.2
+2020,1,International,Australia / Oceania,269436,1.64,-70.2
+2020,1,International,Canada,334498,2.04,-82.6
+2020,1,International,Central America,94164,0.57,-74.3
+2020,1,International,Europe,779758,4.75,-82.2
+2020,1,International,Mexico,421301,2.57,-67.1
+2020,1,International,Middle East,120636,0.74,-77.6
+2020,1,Domestic,US,13117729,79.94,-68.8
+2021,1,International,Asia,792850,3.26,-37.7
+2021,1,International,Australia / Oceania,78220,0.32,-71
+2021,1,International,Canada,321598,1.32,-3.9
+2021,1,International,Central America,140852,0.58,49.6
+2021,1,International,Europe,892827,3.67,14.5
+2021,1,International,Mexico,834206,3.43,98
+2021,1,International,Middle East,275285,1.13,128.2
+2021,1,Domestic,US,20989641,86.29,60
+2022,1,International,Asia,2318720,5.5,192.5
+2022,1,International,Australia / Oceania,544885,1.29,596.6
+2022,1,International,Canada,1422669,3.38,342.4
+2022,1,International,Central America,292793,0.69,107.9
+2022,1,International,Europe,3471768,8.24,288.9
+2022,1,International,Mexico,1276653,3.03,53
+2022,1,International,Middle East,610599,1.45,121.8
+2022,1,Domestic,US,32198388,76.41,53.4
+2023,1,International,Asia,4925533,9.84,112.4
+2023,1,International,Australia / Oceania,916462,1.83,68.2
+2023,1,International,Canada,1849730,3.69,30
+2023,1,International,Central America,330560,0.66,12.9
+2023,1,International,Europe,4037174,8.06,16.3
+2023,1,International,Mexico,1362059,2.72,6.7
+2023,1,International,Middle East,644450,1.29,5.5
+2023,1,Domestic,US,35996952,71.9,11.8
+2024,1,International,Asia,6246926,11.98,26.8
+2024,1,International,Australia / Oceania,998388,1.92,8.9
+2024,1,International,Canada,1963075,3.77,6.1
+2024,1,International,Central America,411852,0.79,24.6
+2024,1,International,Europe,4157635,7.97,3
+2024,1,International,Mexico,1464130,2.81,7.5
+2024,1,International,Middle East,513752,0.99,-20.3
+2024,1,Domestic,US,36378022,69.78,1.1
+2025,1,International,Asia,6437915,11.84,3.1
+2025,1,International,Australia / Oceania,995259,1.83,-0.3
+2025,1,International,Canada,1853978,3.41,-5.6
+2025,1,International,Central America,486509,0.89,18.1
+2025,1,International,Europe,4146170,7.63,-0.3
+2025,1,International,Mexico,1479181,2.72,1
+2025,1,International,Middle East,514138,0.95,0.1
+2025,1,Domestic,US,38446283,70.73,5.7
+2026,0,International,Asia,4465278,12.03,
+2026,0,International,Australia / Oceania,660463,1.78,
+2026,0,International,Canada,1233405,3.32,
+2026,0,International,Central America,363872,0.98,
+2026,0,International,Europe,2838998,7.65,
+2026,0,International,Mexico,880048,2.37,
+2026,0,International,Middle East,221682,0.6,
+2026,0,Domestic,US,26439049,71.26,

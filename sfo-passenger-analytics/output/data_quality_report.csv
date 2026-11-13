@@ -1,0 +1,15 @@
+﻿check_id,category,check_name,expected,observed,status,note
+DQ-01,Completeness,Raw rows = staging rows,40803,40803,PASS,
+DQ-02,Reconciliation,Total passengers: staging = fact,1132828096,1132828096,PASS,Sum of passenger_count across all activity types
+DQ-03,Validity,NULLs in critical columns,0,0,PASS,"activity_period, month start, airline, geo, activity type, passenger count"
+DQ-04,Validity,Negative passenger counts,0,0,PASS,
+DQ-05,Validity,Rows with zero passengers,0,2,WARN,Kept in the data; no effect on sums. Reviewed individually.
+DQ-06,Completeness,Rows with missing operating-airline IATA code,0,313,WARN,"Mostly historical / charter carriers. Airline name is used as the key, not the code."
+DQ-07,Uniqueness,Duplicate natural keys after harmonisation,0,0,PASS,Colliding rows are summed in the fact table (see 02_star_schema.sql)
+DQ-08,Continuity,Distinct months = months in date range,326,326,PASS,Needed for 12-month lag / year-over-year calculations
+DQ-09,Consistency,Period code vs start date mismatches,0,0,PASS,
+DQ-10,Validity,Unexpected activity type / domestic-international values,0,0,PASS,
+DQ-11,Consistency,Domestic/International vs region contradictions,0,0,PASS,
+DQ-12,Reasonableness,Full years where enplaned/deplaned ratio is outside 0.97-1.03,0,0,PASS,Travellers leave roughly as many times as they arrive
+DQ-13,Reasonableness,Latest year is incomplete,12,8,WARN,Latest year is excluded from full-year trends and compared year-to-date only
+DQ-14,Consistency,Legacy United label remaining in dim_airline,0,0,PASS,

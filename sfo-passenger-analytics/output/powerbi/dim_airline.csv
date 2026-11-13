@@ -1,0 +1,140 @@
+﻿airline_key,airline_name,iata_code,first_period,last_period,is_active
+1,ABC Aerolineas S.A. de C.V. dba Interjet,4O,201803,202003,0
+2,ATA Airlines,TZ,199907,200802,0
+3,"Aer Lingus, Ltd.",EI,200710,202608,1
+4,Aeroflot Russian International Airlines,,199907,200403,0
+5,Aeromexico,AM,200703,202608,1
+6,Air 2000,DP,200201,200303,0
+7,Air Atlanta Icelandic,CC,200406,200406,0
+8,Air Berlin,AB,201005,201710,0
+9,Air Canada,AC,199907,202608,1
+10,Air Canada Jazz,QK,200512,200610,0
+11,Air China,CA,199907,202608,1
+12,Air Europe,PE,199907,199909,0
+13,Air France,AF,199907,202608,1
+14,Air India Limited,AI,201512,202608,1
+15,Air Italy S.P.A,,201904,201910,0
+16,Air New Zealand,NZ,200406,202608,1
+17,Air Pacific Limited dba Fiji Airways,FJ,201606,202608,1
+18,"Air Premia, Inc.",YP,202405,202608,1
+19,Air Transat,TS,202205,202310,0
+20,Air Wisconsin,ZW,200212,200305,0
+21,AirTran Airways,FL,200311,201411,0
+22,Alaska Airlines,AS,199907,202608,1
+23,Alitalia Airlines,AZ,199907,200109,0
+24,"All Nippon Company Airways, Ltd.",NH,199907,202608,1
+25,Allegiant Air,G4,200005,200901,0
+26,Allegro Airlines,,200006,200109,0
+27,American Airlines,AA,199907,202608,1
+28,American Eagle Airlines,MQ,200207,200911,0
+29,Ameriflight,A8,200605,200808,0
+30,Asiana Airlines,OZ,199907,202608,1
+31,Atlantic Southeast Airlines,EV,200501,200705,0
+32,"Atlas Air, Inc",5Y,201309,201309,0
+33,BelAir Airlines,BBB,200406,200809,0
+34,Boeing Company,,200508,200508,0
+35,"Breeze Aviation Group, Inc.",MX,202205,202608,1
+36,British Airways,BA,199907,202608,1
+37,"COPA Airlines, Inc.",CM,201509,202608,1
+38,Canadian Airlines,CP,199907,200102,0
+39,Casino Express,XP,200403,200403,0
+40,Cathay Pacific,CX,199907,202608,1
+41,Champion Air,MG,199907,200009,0
+42,China Airlines,CI,199907,202608,1
+43,China Eastern,MU,201304,202608,1
+44,"China Eastern Airlines, Inc",,199907,200003,0
+45,China Southern,CZ,201412,202608,1
+46,Comair,OH,200406,200501,0
+47,Compass Airlines,CP,201309,202004,0
+48,Condor Flugdienst GmbH,DE,202205,202608,1
+49,Corsairfly,SS,200206,200208,0
+50,DB Air,,200307,200403,0
+51,Delta Air Lines,DL,199907,202608,1
+52,EVA Airways,BR,199907,202608,1
+53,El Al Israel Airlines LTD.,,201905,202003,0
+54,Emirates,EK,200812,202608,1
+55,"Envoy Air, Inc.",MQ,202401,202512,0
+56,Etihad Airways,EY,201411,201710,0
+57,Evergreen International Airlines,EZ,200611,200611,0
+58,ExpressJet Airlines,XE,200706,200809,0
+59,Finnair,AY,199907,201912,0
+60,"Flair Airlines, Ltd.",F8,202204,202608,1
+61,French Bee,BF,201805,202608,1
+62,Frontier Airlines,F9,199907,202608,1
+63,Harmony Airways,HQ,200403,200403,0
+64,Hawaiian Airlines,HA,199907,202601,0
+65,Hong Kong Airlines Limited,HX,201803,201910,0
+66,Horizon Air,QX,200204,202608,1
+67,ITA Airways,AZ,202307,202608,1
+68,Iberia,IB,201804,202608,1
+69,Icelandair (Inactive),FI,200311,200610,0
+70,Icelandair EHF,FI,201806,202001,0
+71,Independence Air,DH,200505,200511,0
+72,Japan Airlines,JL,199907,202608,1
+73,Jazz Aviation,QK,201606,202608,1
+74,Jet Airways,9W,200806,200901,0
+75,JetBlue Airways,B6,200705,202608,1
+76,KLM Royal Dutch Airlines,KL,199907,202608,1
+77,Korean Air Lines,KE,199907,202608,1
+78,LAN Peru,LP,201007,201403,0
+79,"LEVEL, Fly LEVEL Barcelona LH, S.L.",LL,202603,202604,0
+80,Lufthansa German Airlines,LH,199907,202608,1
+81,Mesa Airlines,YV,200205,201611,0
+82,Mesaba Airlines,XJ,200902,201109,0
+83,Mexicana Airlines,MX,199907,201008,0
+84,Miami Air International,GL,199907,201509,0
+85,Midwest Airlines,YX,199907,201004,0
+86,National Airlines,N7,199907,200209,0
+87,"Norse Atlantic UK, Ltd.",Z0,202307,202310,0
+88,North American Airlines,NA,199911,200210,0
+89,Northwest Airlines (became Delta),NW,199907,201001,0
+90,Norwegian Air Shuttle ASA,,201910,202003,0
+91,Norwegian Air UK Ltd,LY,201903,202003,0
+92,Omni Air International,OY,200105,200310,0
+93,POLSKIE LINIE LOTNICZE LOT S.A. (LOT POLISH AIRLINES),LO,202605,202608,1
+94,Pacific Aviation,,201006,201006,0
+95,Philippine Airlines,PR,199907,202608,1
+96,Porter Airlines (Canada) Limited,PD,202401,202608,1
+97,Qantas Airways,QF,200603,202608,1
+98,Qatar Airways,QR,202012,202608,1
+99,Reno Air,QQ,199907,199907,0
+100,Republic Airlines,RW,201005,201502,0
+101,Ryan International Airlines,RD,199907,200202,0
+102,SAS Airlines,SK,201304,202608,1
+103,"Samsic Airport America, LLC",,202207,202207,0
+104,Servisair,,201005,201310,0
+105,Singapore Airlines,SQ,199907,202608,1
+106,SkyWest Airlines,OO,199907,202608,1
+107,Sobelair Airlines,,199907,199910,0
+108,Southwest Airlines,WN,199907,202608,1
+109,Spirit Airlines,NK,200605,200709,0
+110,Sports Hawk,,200005,200008,0
+111,Sports Jet,,199907,199909,0
+112,Star Air,S6,199907,199910,0
+113,Starlux Airlines Co. LTD,JX,202312,202608,1
+114,Sun Country Airlines,SY,199907,202608,1
+115,Swiss International,LX,201006,202608,1
+116,Swissair,SR,199907,200110,0
+117,Swissport USA,,201204,202202,0
+118,"TACA International Airlines, S.A.",TA,199907,202608,1
+119,TAP Air Portugal,TP,201906,202608,1
+120,TWA,TW,199907,200111,0
+121,Thomas Cook Airlines,MT,201705,201909,0
+122,Tower Air,FF,199907,200002,0
+123,Tradewinds Airlines,WI,200006,200006,0
+124,Trans States Airlines,AX,199907,199912,0
+125,Trego Dugan Aviation,,201705,201705,0
+126,Turkish Airlines,TK,201504,202608,1
+127,US Airways,US,199907,201510,0
+128,United Airlines,UA,199907,202608,1
+129,Vanguard Airlines,NJ,200104,200207,0
+130,Vietnam Airlines JSC,VN,202111,202608,1
+131,Virgin America,VX,200708,201804,0
+132,Virgin Atlantic,VS,199907,202608,1
+133,Volaris Airlines,Y4,201607,201901,0
+134,WOW Air,WW,201606,201811,0
+135,WestJet,WS,200410,202608,1
+136,World Airways,WO,200409,201211,0
+137,XL Airways France,SE,201205,201909,0
+138,Xtra Airways,XP,200608,200608,0
+139,ZIPAIR Tokyo Inc,ZG,202306,202608,1

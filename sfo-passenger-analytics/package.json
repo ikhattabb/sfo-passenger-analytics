@@ -1,0 +1,38 @@
+{
+  "name": "sfo-passenger-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SQL and TypeScript analytics pipeline with a React dashboard, built on public SFO passenger data",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "db": "tsx scripts/build-database.ts",
+    "export": "tsx scripts/export-outputs.ts",
+    "data": "tsx scripts/export-dashboard-json.ts",
+    "pipeline": "npm run db && npm run export && npm run data",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-is": "18.3.1",
+    "recharts": "3.10.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "9.6.0",
+    "@types/node": "22.20.5",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "4.7.0",
+    "better-sqlite3": "12.11.1",
+    "csv-parse": "7.0.3",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "vite": "5.4.21"
+  }
+}
